@@ -1,0 +1,20 @@
+channels:
+  - nodefaults
+  - https://artifactory.capstoneco.com/artifactory/api/conda/conda
+dependencies:
+  - cassandra-driver=3.28.0
+  - datalake=2.0.3
+  - jupyterlab
+  - pandas=1.5.3
+  - psycopg2=2.9.3
+  - pyarrow=10.0.1
+  - pymongo=4.3.2
+  - pyodbc==4.0.39
+  - pyvolar=3.19.0=capstone_0_py39hcab7891
+  - pyctp=7.24.4=capstone_py39h1234567_2081_ga4982feee0
+  - scikit-learn=1.2.2
+  - scipy=1.9.3
+  - sqlalchemy=1.4.36
+  - tqdm=4.64.1
+  - pyctp_uat_deployed=7.63.1
+  - capstone-activation
