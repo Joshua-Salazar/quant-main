@@ -1,0 +1,10 @@
+from enum import Enum
+
+
+class BusinessDayConvention(Enum):
+    PREVIOUS = "PREVIOUS"
+    FOLLOWING = "FOLLOWING"
+    MODIFIEDFOLLOWING = "MODIFIEDFOLLOWING"
+    MODIFIEDPREVIOUS = "MODIFIEDPREVIOUS"
+    NONE = "NONE"
+
